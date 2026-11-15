@@ -253,9 +253,6 @@ ul, ol {
     padding: 90px 40px 50px;
     box-sizing: border-box;
 }
-/* ============================= */
-/*         ABOUT ME PAGE         */
-/* ============================= */
 
 .about-card {
     width: 100%;
@@ -275,7 +272,6 @@ ul, ol {
     text-align: left;
 }
 
-/* LEFT SIDE - TEXT */
 
 .about-text {
     flex: 1;
@@ -294,7 +290,6 @@ ul, ol {
     margin-bottom: 28px;
 }
 
-/* RIGHT SIDE - PHOTO */
 
 .about-image {
     flex: 0 0 380px;
@@ -311,7 +306,6 @@ ul, ol {
     border-radius: 25px;
 }
 
-/* RESPONSIVE - MOBILE */
 
 @media (max-width: 768px) {
 
@@ -391,7 +385,6 @@ ul, ol {
         padding: 35px 25px;
     }
 }
-/* HOBBIES AND GOALS - TEXT SIZE */
 
 .hobbies-card .section-title {
     font-size: 42px;
@@ -422,7 +415,6 @@ ul, ol {
     justify-content: center;
 }
 
-/* Keep containers responsive */
 @media (max-width: 768px) {
 
     .hobbies-card,
@@ -431,7 +423,6 @@ ul, ol {
         padding: 35px 25px;
     }
 }
-/* SCHEDULE TEXT SIZE */
 .section-card h2 {
     font-size: 40px;
     margin-bottom: 40px;
@@ -442,19 +433,17 @@ ul, ol {
     font-size: 23px;
 }
 
-/* Table headings */
 .section-card th {
     font-size: 25px;
     font-weight: bold;
     padding: 22px 28px;
 }
 
-/* Table contents */
 .section-card td {
     font-size: 23px;
     padding: 22px 28px;
 }
-/* FAVORITES SECTION */
+
 .favorites-card {
     width: 100%;
     max-width: 1100px;
@@ -473,7 +462,6 @@ ul, ol {
     margin: 0 0 40px;
 }
 
-/* Align all four photos in a 2x2 grid */
 .favorites-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -499,7 +487,6 @@ ul, ol {
     box-shadow: none;
 }
 
-/* Remove previous positioning adjustments */
 .favorite-item:nth-child(1),
 .favorite-item:nth-child(2),
 .favorite-item:nth-child(3),
@@ -547,7 +534,6 @@ ul, ol {
 .favorites-card {
     margin: 0 auto 60px;
 }
-/* Mobile layout */
 @media (max-width: 768px) {
     .favorites-card {
         width: 92%;
@@ -654,12 +640,6 @@ footer {
     padding: 3px;
 }
 
-
-/* =========================================
-   CSS-ONLY DARK MODE + MOBILE RESPONSIVENESS
-   ========================================= */
-
-/* Hide the checkbox while keeping it available to the label. */
 .theme-checkbox {
     position: absolute;
     width: 1px;
@@ -714,7 +694,6 @@ body:has(#themeToggle:checked) nav a {
     color: var(--text-color);
 }
 
-/* Prevent sections from becoming wider than the screen. */
 *, *::before, *::after {
     box-sizing: border-box;
 }
